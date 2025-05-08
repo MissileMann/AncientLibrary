@@ -1,8 +1,8 @@
 {
   "block": "ancientlibrary:ancientlibrary",
   "stats": {
-    "maxEterna": 30,
-    "eterna": 30,
+    "maxEterna": 15,
+    "eterna": 15,
     "quanta": 0,
     "arcana": 10
   }
