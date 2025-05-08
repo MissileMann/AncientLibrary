@@ -13,7 +13,7 @@ public class Config
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
 
     private static final ForgeConfigSpec.IntValue BOOKSHELF_POWER = BUILDER
-            .comment("The amount of enchanting power this bookshelf should give. \nIn vanilla, you only need a power of 15 for Level 30 enchantments.\n(Default: 15)")
+            .comment("The amount of enchanting power this bookshelf should give.\nIn vanilla, you only need a power of 15 for Level 30 enchantments.\n(Default: 15)")
             .defineInRange("bookshelfPower", 15, 0, Integer.MAX_VALUE);
     static final ForgeConfigSpec SPEC = BUILDER.build();
     public static int bookshelfPower;
